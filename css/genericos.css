@@ -1,0 +1,41 @@
+body *{
+    padding: 15px;
+    color: white;
+}
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    border: 0;
+    height: 100%;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+#header{
+    background-color: rgb(12, 12, 90);;
+    grid-column: 1/4;
+}
+#aside-left{
+    grid-column: 1 / 2;
+    background-color: rgb(197, 167, 117);;
+}
+#aside-right{
+    grid-column: 3 / 4;
+    background-color: rgb(197, 167, 117);;
+}
+#main{
+    grid-column: 2 / 3;
+    background-color: rgb(185, 95, 158);
+}
+#article{
+    background-color: rgb(77, 67, 73);
+}
+.section{
+    margin: 10px;
+    background-color: rgb(201, 148, 189);
+}
+#footer{
+    grid-column: 1 / 4;
+    background-color: rgb(12, 12, 90);
+}
